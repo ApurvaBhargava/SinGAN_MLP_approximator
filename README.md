@@ -1,7 +1,7 @@
 # SinGAN + MLP for superresolution
 
 This is an extension to the original SinGAN paper from where this repo is forked.
-The aim of this extension is to build a function approximator (MLP) over SinGAN to arbitrarily query a low resolution image for real-valued co-ordinates to perform superresolution. This is achieved by substituting the SinGAN generators with autoencoders and the encodings are fed into an MLP to predict pixel outputs from input coordinates.
+The aim of this extension is to build a function approximator (MLP) over SinGAN to arbitrarily query a low resolution image for real-valued co-ordinates to perform superresolution. This is achieved by substituting the SinGAN generators with autoencoders and feeding the encodings to an MLP to predict pixel outputs from input coordinates.
 
 Please see the complete report [here](https://github.com/ApurvaBhargava/SinGAN_MLP_approximator/blob/master/3001ComputerVision%20Report.pdf).
 
